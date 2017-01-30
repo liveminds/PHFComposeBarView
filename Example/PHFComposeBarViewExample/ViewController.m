@@ -151,8 +151,9 @@ CGRect const kInitialViewFrame = { 0.0f, 0.0f, 320.0f, 480.0f };
 
         [_composeBarView setAccessibilityIdentifier:@"PHFComposeBar"];
         [_composeBarView.placeholderLabel setAccessibilityIdentifier:@"PHFComposeBarPlaceholderLabel"];
-        [_composeBarView.utilityButton setAccessibilityIdentifier:@"PHFComposeBarUtilityButton"];
         [_composeBarView.textView setAccessibilityIdentifier:@"PHFComposeBarTextView"];
+        [_composeBarView.button setAccessibilityIdentifier:@"PHFComposeBarButton"];
+        [_composeBarView.utilityButton setAccessibilityIdentifier:@"PHFComposeBarUtilityButton"];
     }
 
     return _composeBarView;
